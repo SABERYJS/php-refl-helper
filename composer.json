@@ -1,0 +1,21 @@
+{
+    "name": "saberyjs/refl-helper",
+    "description": "this library can help create object of specified class,or call specified method of specified clas",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saberyjs",
+            "email": "saberyjs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">5.6"
+    },
+    "autoload":{
+        "psr-4":{
+            "saberyjs\\refl_helper\\":"src/"
+        }
+    }
+}
