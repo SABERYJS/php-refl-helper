@@ -27,6 +27,7 @@ class ReflHelper
     /**
      * @param  $className string|\ReflectionClass
      * @return  object
+     * @throws  \RuntimeException|\ReflectionException
      * **/
     public static function getInstance($className)
     {
