@@ -9,7 +9,6 @@
             "email": "saberyjs@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php":">5.6",
         "saberyjs/exception": "^1.0"
